@@ -28,6 +28,9 @@ a {
 .topnav {
     overflow: hidden;
     background-color: #ffd900;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
 }
 
 .nav__logo {
@@ -290,7 +293,9 @@ input[type=submit]{
     float: right;
     display: block;
     }
-
+    .topnav {
+        display: block;
+    }
     .nav__logo {
         height: 30px;
         width: auto;

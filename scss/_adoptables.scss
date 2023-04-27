@@ -1,14 +1,14 @@
 .banner2 {
-    background-image: url(../img/banner2.png);
-    height: 350px;
+    background-image: url(../img/banner2.jpg);
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
     .botones{
-        background-color: rgba(255, 174, 0, 0.5);
+        background-color: rgba(238, 129, 238, 0.3);
         border-radius: 5px;
-        border: solid rgb(255, 174, 0) 2px;
+        border: solid $color_secundario 2px;
         height: auto;
         text-align: center;
         width: 250px;
@@ -25,11 +25,11 @@
         }
     }
     .perros {
-        top: 20%;
+        top: 35%;
         left: 25%;
     }
     .gatos {
-        top: 20%;
+        top: 35%;
         left: 55%;
     }
 
@@ -38,13 +38,10 @@
 .adoptables {
     text-align: center;
 
-    
-    h1 {
-        margin-bottom: 0;
-        text-align: left;
-    }
-    h2 {
-        text-align: left;
+    @each $alineacion in h1, h2 {
+        #{$alineacion}{
+            text-align: left;
+        }
     }
     
     img {

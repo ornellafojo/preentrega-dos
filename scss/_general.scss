@@ -1,7 +1,7 @@
 /*Tipografía/s*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-* {
+html {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -23,12 +23,23 @@ a {
 }
 
 h1 {
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 h2 {
     margin: $margen 0;
     color: $color_secundario;
+}
+
+h4 {
+    padding: 5px;
+    font-size: 20px;
+}
+
+h5 {
+    font-weight: 400;
+    padding: 3px;
+    font-size: 16px;
 }
 
 .izq {
@@ -45,16 +56,6 @@ h2 {
     }
 }
 
-h5 {
-    font-weight: 400;
-    padding: 5px;
-    font-size: 13px;
-}
-
-h4 {
-    padding: 5px;
-    font-size: 16px;
-}
 
 .imagen_cuadrada {
     width: 300px;
@@ -70,4 +71,14 @@ input[type=submit]{
     font-weight: 600;
     color: $color_2;
     background-color: $color_secundario;
+}
+
+.footer_text {
+    width: 80%;
+    height: 40px;
+    padding: 5px 10px;
+    border: solid $color_secundario 1px;
+    border-radius: 5px;
+    margin: 0 3px 15px 0;
+    resize: none;
 }

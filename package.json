@@ -1,7 +1,7 @@
 {
   "name": "preentrega-dos---copia",
   "version": "1.0.0",
-  "description": "",
+  "description": "Es una página web de adopción de mascotas, donde puedes averigual un poco sobre sus personalidades y hacer un quizz para saber cual sería tu match perfecto.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

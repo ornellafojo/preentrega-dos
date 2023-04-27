@@ -1,5 +1,5 @@
 .banner1 {
-    background-image: url(../img/banner1.png);
+    background-image: url(../img/banner1.jpg);
     height: 790px;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,10 +11,10 @@
         position: absolute;
         color: $color_2;
         font-size: 84pt;
+        font-weight: 900;
         width: 100%;
         left: 0;
-        height: 100%;
-        top: 25%;
+        top: 35%;
         animation-name: inicio;
         animation-duration: 2s;
         animation-iteration-count: 1;

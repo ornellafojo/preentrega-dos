@@ -1,0 +1,32 @@
+.quizz {
+    @for $i from 1 through 5 {
+        span {
+            color: $color_secundario;
+        }
+    }
+
+    input[type=radio]{
+        height: 15px;
+        width: 20px;
+    }
+
+
+    p {
+        padding: 20px 0;
+        font-size: 25px;
+    }
+
+    .fondo_form {
+        padding: 20px 50px 50px 50px;
+        border-radius: 10px;
+        border: solid $color_secundario 2px;
+    }
+
+    .preguntas {
+        width: auto;
+    }
+}
+
+.h1_excepcion {
+    margin-bottom: 0;
+}

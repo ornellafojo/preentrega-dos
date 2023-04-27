@@ -1,0 +1,68 @@
+.banner2 {
+    background-image: url(../img/banner2.png);
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .botones{
+        background-color: rgba(255, 174, 0, 0.5);
+        border-radius: 5px;
+        border: solid rgb(255, 174, 0) 2px;
+        height: auto;
+        text-align: center;
+        width: 250px;
+        padding: 20px;
+        position: absolute;
+
+        .blanco {
+            color: $color_2;
+            font-size: 50px;
+            font-weight: 500;
+        }
+        :hover {
+            color: $color_secundario;
+        }
+    }
+    .perros {
+        top: 20%;
+        left: 25%;
+    }
+    .gatos {
+        top: 20%;
+        left: 55%;
+    }
+
+}
+
+.adoptables {
+    text-align: center;
+
+    
+    h1 {
+        margin-bottom: 0;
+        text-align: left;
+    }
+    h2 {
+        text-align: left;
+    }
+    
+    img {
+        margin-top: 15px;
+        
+    }
+
+        .abajo:hover {
+                box-shadow: 1px 1px 30px rgb(192, 192, 192);
+                h4 {
+                    font-size: 25px;
+                }
+                h5 {
+                    font-size: 15px;
+                }
+            }
+    .caja {
+        height: 450px;
+    }
+
+}

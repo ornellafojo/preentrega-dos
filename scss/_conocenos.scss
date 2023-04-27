@@ -1,0 +1,21 @@
+.equipo {
+    text-align: center;
+    height: 400px;
+    img {
+        border-radius: 500px;
+        width: 250px;
+        height: auto;
+    } 
+    :hover {
+        transition: transform .8s;
+        width: 270px;
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+        img {
+            border: solid $color_secundario 2px;
+        }
+    }
+
+
+}
